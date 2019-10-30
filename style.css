@@ -17,6 +17,12 @@ a:hover{
   text-decoration: none;
 }
 
+.clearfix::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
 #header-min-1050{
   position: fixed;
   width: 100%;
@@ -25,6 +31,7 @@ a:hover{
   top: 0;
   left: 0;
   right: 0;
+  box-shadow: 0 2px 4px rgba(3,27,78,.1);
 }
 
 .nav-top{
@@ -189,17 +196,241 @@ a:hover{
   color: rgba(255, 255, 255, 0.5);
 }
 
-
 .welcome{
   background-color: #0248ff;
   padding-top: 90px;
+  padding-bottom: 64px;
 }
-@media screen and (min-width:768px) {
+
+.padding-welcome{
+  padding-top: 80px;
+}
+
+.my-container{
+  max-width: 1200px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: auto;
+}
+
+.welcome h1{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.welcome p{
+  margin: 16px 0 32px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.signup-box{
+  width: 84%;
+  background-color: #fff;
+  border: 1px solid rgba(3,27,78,.1);
+  border-radius: 5px;
+  padding: 32px;
+  float: right;
+}
+
+.signup-box input{
+  margin-top: 16px;
+}
+
+.signup-box h2{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(3, 27, 78);
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.compila{
+  padding: 10px 16px;
+  height: auto;
+  font-size: 16px;
+  color: rgb(3, 27, 78);
+  border: 1px solid #f1f1f1;
+  box-shadow: none;
+}
+
+.compila::-webkit-input-placeholder {
+  color: rgb(3, 27, 78);
+}
+.compila::-moz-input-placeholder {
+  color: rgb(3, 27, 78);
+}
+.compila::-ms-input-placeholder {
+  color: rgb(3, 27, 78);
+}
+
+.button-send{
+  width: 100%;
+  background-color: #0069ff;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.button-send:hover{
+  background-color: #1633ff;
+  color: white;
+}
+
+.signup-line{
+  margin-top: 16px;
+  position: relative;
+}
+
+.line-left{
+  background-color: #e5e8ed;
+  height: 1px;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-top: 11px;
+}
+
+.line-right{
+  background-color: #e5e8ed;
+  height: 1px;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-top: 11px;
+}
+
+.centro{
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
+.signup-line span{
+  display: inline-block;
+  color: #5b6987;
+  font-size: 16px;
+}
+
+.signup-box small{
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.signup-box a{
+  color: #005fe6;
+  text-decoration: underline;
+}
+
+.button-right{
+  float: right;
+}
+
+.button-google-github img{
+  width: 18px;
+  height: 18px;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.signup-box button{
+  margin-top: 16px;
+  padding: 10px 37px;
+  color: rgb(3, 27, 78);
+  background-color: #f2f8ff;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid rgba(0,105,255,.2);
+  width: 45%;
+  position: relative;
+}
+
+.signup-box button:hover{
+  background-color: #d5e4f7;
+}
+
+@media screen and (min-width: 500px) {
+  .line-left{
+    width: 30%;
+  }
+
+  .line-right{
+    width: 30%;
+  }
+
+  .centro{
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .welcome{
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
     background-repeat: no-repeat;
     min-height: 800px;
     background-position: center;
+  }
+
+  .padding-col-left{
+    padding-top: 107px;
+  }
+
+  .line-left{
+    width: 22%;
+  }
+
+  .line-right{
+    width: 22%;
+  }
+
+  .centro{
+    width: 56%;
+  }
+}
+
+@media screen and (min-width: 875px){
+  .welcome h1{
+    font-size: 46px;
+  }
+
+  .line-left{
+    width: 26%;
+  }
+
+  .line-right{
+    width: 26%;
+  }
+
+  .centro{
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .welcome h1{
+    font-size: 54px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .welcome h1{
+    font-size: 62px;
+  }
+
+  .line-left{
+    width: 30%;
+  }
+
+  .line-right{
+    width: 30%;
+  }
+
+  .centro{
+    width: 40%;
   }
 }
 
@@ -218,4 +449,10 @@ a:hover{
     display: none;
   }
 
+}
+
+@media screen and (max-width: 767.9px) {
+  .signup-box{
+    width: 100%;
+  }
 }
