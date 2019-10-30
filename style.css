@@ -3,3 +3,219 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+  margin-bottom: 0;
+  list-style: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+#header-min-1050{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-top{
+  height: 40px;
+  padding: 0 30px;
+  border-bottom: 1px solid #e5e8ed;
+  position: relative;
+}
+
+#a-header-top{
+  font-weight: 600;
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#a-header-top p:hover{
+  text-decoration: none;
+  color: #0069ff;
+}
+
+#a-header-top span{
+  display: inline-block;
+  font-size: 9px;
+  background-color: #00d7d2;
+  border-radius: 5px;
+  color: #031b4e;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+#a-header-top p{
+  font-size: 12px;
+  color: #5b6987;
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.menu-right{
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-right li{
+  display: inline-block;
+  margin-left: 24px;
+}
+
+.menu-right a{
+  font-size: 12px;
+  color: #5b6987;
+  font-weight: 600;
+}
+
+.menu-right a:hover{
+  text-decoration: none;
+}
+
+.nav-bottom{
+  height: 65px;
+  padding: 0 30px;
+  position: relative;
+}
+
+#a-header-logo{
+  margin-top: 18px;
+  display: inline-block;
+}
+
+.nav-bottom img{
+  height: 29px;
+}
+
+.menu-bottom{
+  position: absolute;
+  left: 240px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-bottom li{
+  display: inline-block;
+  margin-left: 24px;
+}
+
+.menu-bottom a{
+  color: rgb(3, 27, 78);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.menu-bottom a:hover{
+  color: #0069ff;
+}
+
+.fa-angle-down{
+  font-size: 16px;
+  vertical-align: bottom;
+}
+
+.sign-up{
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #0069ff;
+  border-color: #0069ff;
+  font-weight: bold;
+}
+
+.sign-up:hover{
+  color: white;
+  background-color: #0069ff;
+}
+
+#header-max-1049{
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+}
+
+.nav-menu2{
+  height: 90px;
+  position: relative;
+}
+
+#a-header-2-logo{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+#a-header-2-logo img{
+  height: 29px;
+}
+
+#a-header-2-logo p{
+  color: white;
+  font-size: 22.3px;
+  font-weight: 700;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.fa-bars{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.welcome{
+  background-color: #0248ff;
+  padding-top: 90px;
+}
+@media screen and (min-width:768px) {
+  .welcome{
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-repeat: no-repeat;
+    min-height: 800px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  #header-max-1049{
+    display: none;
+  }
+
+  .welcome{
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1049.9px) {
+  #header-min-1050{
+    display: none;
+  }
+
+}
