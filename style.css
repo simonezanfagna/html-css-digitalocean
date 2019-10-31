@@ -391,7 +391,68 @@ a:hover{
   font-weight: 600;
 }
 
+.deploy{
+  padding-top: 120px;
+  padding-bottom: 64px;
+}
 
+.deploy-top h2{
+  margin-top: 0;
+  color: rgb(3, 27, 78);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.deploy-top p{
+  margin-top: 16px;
+  margin-bottom: 64px;
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 20px;
+}
+
+.nav-verticale li{
+  border-left: 2px solid #e5e8ed;
+  display: block;
+  padding: 17px 10px 17px 30px;
+}
+
+.nav-verticale a{
+  color: rgba(3,27,78,.5);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-verticale a:hover{
+  color: #031b4e;
+}
+
+.nav-verticale li:first-child{
+  border-left: 2px solid #0069ff;
+}
+
+.nav-verticale li:first-child a{
+  color: #031b4e;
+}
+
+.deploy-bottom h3{
+  color: rgb(3, 27, 78);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.deploy-bottom p{
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 16px;
+}
+
+.fa-life-ring, .fa-microchip, .fa-folder, .fa-globe{
+  color: #0069ff;
+  font-size: 30px;
+}
+
+.margine-bottom-32{
+  margin-bottom: 32px;
+}
 
 @media screen and (min-width: 500px) {
   .line-left{
@@ -495,4 +556,11 @@ a:hover{
   .signup-box{
     width: 100%;
   }
+}
+
+@media screen and (max-width: 479.9px) {
+  .my-col-small{
+    width: 100%;
+  }
+
 }
