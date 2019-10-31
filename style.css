@@ -551,6 +551,46 @@ a:hover{
   background-color: rgba(0,105,255,.2);
 }
 
+.business{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.business h2{
+  margin-top: 0;
+  color: rgb(3, 27, 78);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.margine-top-32{
+  margin-top: 32px;
+}
+
+.business h4{
+  color: rgb(3, 27, 78);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.business p{
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 16px;
+}
+
+.business a{
+  color: rgb(0, 105, 255);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.business .fas{
+  color: rgb(0, 105, 255);
+  font-size: 38px;
+}
+
 @media screen and (min-width: 500px) {
   .line-left{
     width: 30%;
