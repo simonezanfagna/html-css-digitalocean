@@ -454,6 +454,103 @@ a:hover{
   margin-bottom: 32px;
 }
 
+.designed{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: #f3f5f9;
+}
+
+.designed-top h2{
+  margin-top: 0;
+  color: rgb(3, 27, 78);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.designed-top p{
+  margin-top: 16px;
+  margin-bottom: 64px;
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 20px;
+}
+
+.designed-bottom{
+  position: relative;
+}
+
+.designed-bottom button{
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+}
+
+.fa-chevron-left{
+  font-size: 30px;
+  color: rgba(3,27,78,.3);
+}
+
+.fa-chevron-right{
+  font-size: 30px;
+  color: rgba(3,27,78,.9);
+}
+
+.fa-chevron-right:hover{
+  color: #0069ff;
+}
+
+.sinistra{
+  left: 0px;
+  top: 50%;
+}
+
+.destra{
+  right: 0px;
+  top: 50%;
+}
+
+.designed-bottom button{
+  display: none;
+}
+
+.posizione-img{
+  max-width: 736px;
+  margin: auto;
+}
+
+.posizione-img img{
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+  box-shadow: 0 2px 4px rgba(3,27,78,.06);
+}
+
+.designed-bottom p{
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 16px;
+  margin-top: 32px;
+}
+
+.designed-bottom li{
+  display: inline-block;
+  border: 2px solid #0069ff;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.designed-bottom ul li:first-child{
+  background-color: #0069ff;
+}
+
+.designed-bottom ul li:not(:first-child):hover{
+  background-color: rgba(0,105,255,.2);
+}
+
 @media screen and (min-width: 500px) {
   .line-left{
     width: 30%;
@@ -509,6 +606,10 @@ a:hover{
   .centro{
     width: 48%;
   }
+
+  .designed-bottom button{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1000px){
@@ -556,6 +657,7 @@ a:hover{
   .signup-box{
     width: 100%;
   }
+
 }
 
 @media screen and (max-width: 479.9px) {
