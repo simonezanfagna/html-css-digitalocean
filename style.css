@@ -655,6 +655,65 @@ td a:hover{
   color: #005fe6;
 }
 
+.designed-teams{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: #f3f5f9;
+}
+
+#teams{
+  color: #0069ff;
+  text-decoration: underline;
+}
+
+.posizione-teams{
+  max-width: 736px;
+  min-height: 360px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #e5e8ed;
+  border-radius: 5px;
+  padding: 32px;
+}
+
+.posizione-teams img{
+  display: block;
+  margin: auto;
+  margin-bottom: 32px;
+  max-width: 175px;
+}
+
+.posizione-teams .p-t{
+  margin: 0 0 16px;
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.posizione-teams .p-m, .posizione-teams .p-b{
+  margin: 0 auto;
+  opacity: .8;
+  color: rgba(3, 27, 78, 0.7);
+}
+
+.posizione-teams .p-m{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.posizione-teams .p-b{
+  font-size: 12px;
+}
+
+.posizione-teams a{
+  color: #0069ff;
+  font-weight: 600;
+  margin-top: 24px;
+  display: block;
+  font-size: 16px;
+}
+
 @media screen and (min-width: 500px) {
   .line-left{
     width: 30%;
