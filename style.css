@@ -714,6 +714,37 @@ td a:hover{
   font-size: 16px;
 }
 
+.start{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #0248ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  background-repeat: no-repeat;
+  background-position: -150px bottom;
+  text-align: center;
+}
+
+.start h3{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.start a{
+  color: #0069ff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: white;
+  margin-top: 24px;
+  padding: 16px 32px;
+}
+
+.start a:hover{
+  background-color: hsla(0,0%,100%,.8);
+  color: #0069ff;
+}
+
 @media screen and (min-width: 500px) {
   .line-left{
     width: 30%;
