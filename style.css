@@ -611,6 +611,8 @@ a:hover{
   max-width: 742px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 tr td:first-child{
@@ -743,6 +745,79 @@ td a:hover{
 .start a:hover{
   background-color: hsla(0,0%,100%,.8);
   color: #0069ff;
+}
+
+footer{
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #010e28;
+}
+
+.footer-top .row{
+  margin-top: -32px;
+}
+
+.footer-top div[class^="col-"]{
+  padding-top: 32px;
+}
+
+h5{
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: white;
+}
+
+.footer-top li{
+  margin-top: 7px;
+}
+
+.footer-top li a{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-bottom{
+  margin-top: 64px;
+}
+
+.footer-bottom .my-container{
+  border-top: 1px solid hsla(0,0%,100%,.2);
+}
+
+.footer-bottom div[class^="col-"]{
+  padding-top: 32px;
+}
+
+.footer-bottom p{
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.footer-bottom a{
+  vertical-align: middle;
+}
+
+.footer-bottom .fa-digital-ocean{
+  color: rgb(0, 128, 255);
+  margin-right: 16px;
+  font-size: 50px;
+}
+
+.social-footer{
+  margin-top: 16px;
+}
+
+.social-footer a{
+  margin-left: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-footer a:hover{
+  color: white;
+}
+
+.social-footer i{
+  font-size: x-large;
 }
 
 @media screen and (min-width: 500px) {
